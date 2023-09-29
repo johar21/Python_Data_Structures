@@ -1,4 +1,11 @@
 def add_num(l):
+    """
+    The function `add_num` checks if there are two numbers in a given list whose sum is zero.
+    
+    :param l: The parameter `l` is a list of numbers
+    :return: The function `add_num` returns `True` if there are two numbers in the list `l` whose sum is
+    zero, otherwise it returns `False`.
+    """
     if len(l)<2:
         return False
     l1=set(l)
