@@ -7,6 +7,7 @@ def add_num(l):
             return True
     
     return False
-
+#List declared
 l=[1,2,3,4,5,-1,-2,2,5,4]
+#print value
 print(add_num(l))
